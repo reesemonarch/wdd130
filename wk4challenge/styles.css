@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-color: rgb(248, 154, 182);
+}
+header {
+    display: block;
+}
+header p {
+    font-family:'AR One Sans', sans-serif;
+    font-size: 50px;
+    color:ghostwhite
+}
+main p {
+    font-size: 24px;
+    color:floralwhite;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    width: 80%;
+}
+    h1 {
+    font-size: 40px;
+    font-family:'AR One Sans', sans-serif;
+    color:white}
+
+footer p {
+    font-size: 20px;
+    margin: 20ps auto;
+    font-family: 'AR One Sans', sans-serif;
+}
+font-family: 'Playfair Display', serif;
+font-family: 'Young Serif', serif;
+footer p {
+    font-size: 20px;
+    margin: 10px auto;
+    text-align: center;
+}
