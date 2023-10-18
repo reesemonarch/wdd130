@@ -1,80 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=PT+Serif:ital@1&display=swap');
-:root {
+:root 
 
-#nav-bar {
-    position: fixed;
-    top: 0;
-    width: 95%;
-    z-index:2;
-  }
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
-}
-#active {
-    background-color: whitesmoke;
-    color: steelblue;
-}
-div {
-    max-width: 1600px;
+body {
+    background-color: #6e8392;
+    font-family: 'Inclusive Sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding:0;
 }
 #content {
     margin: 0 auto;
+    max-width: 1600;
+}
+header {
+    background-color:#fae68c;
+    font-family: Haettenschweiler,'PT Serif', Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+}
+.logo {
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 2%;
 }
 nav a {
     text-align: center;
     color:black;
+    background-color: white;
     text-decoration: none;
+    padding: 5px;
+    border-radius: 15%;
+    border: 3px solid #6e8392
+}
+nav a:hover {
+    background-color: #6e8392;
+    color:white;
+    padding: 5px;
+    border-radius: 10%;
+}
+#hero-img {
+    width:100%;
+    border-top: 7px #6e8392 solid ;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-
+    color:aliceblue
+}
+#hero-msg h1 {
+    font-size: 50px;
+}
+.home-title {
+    color:rgb(46, 69, 69);
+    padding: auto;
 }
 .button-box {
     text-align: center;
+    width: 100%;
+    height: 25px;
 }
-main section {
+.book {
+    background-color: #fae68c;
+    color:black;
+    text-decoration: none;
     text-align: center;
+    width: 70px;
+    height: 70px;
+    padding: 5px; 
+    border-radius: 10px;
+    border: 1px solid black
+}
+.book:hover {
+    background-color:aliceblue;
+    color:darkslategrey;
+    text-align: center;
+}
+.home-grid {
+    /* controls all things for the main section */
+    text-align: center;
+}
+.card-img {
+    /* controls all image features in the main section */ 
+    text-align: center;
+    border: 6px solid black;
+    margin: 50px 9px 20px 105px;
+    border-radius: 3%;
+}
+main h2 {
+    color: aliceblue;
+    font-family: 'Arial Narrow Bold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.icon {
+    /* controls small icon images */
+    width: 80px;
+    color:rgb(15, 14, 14);
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: 2px solid black;
 }
 #background {
     height: 725;
     color:rgb(113, 47, 47)
 }
-body {
-    background-color: #396E94;
-    font-family: 'Inclusive Sans', Arial, Helvetica, sans-serif;
-}
-header {
-    background-color:#D4AC0D;
-    font-family: 'PT Serif', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-nav a:hover {
-    background-color: white;
-    color:rgb(113, 47, 47);
-}
-.book {
-    background-color:aquamarine;
-    color:black;
-    text-decoration: none;
-}
-.join {
-    background-color:aliceblue;
-    color:black;
-    text-decoration: none;
-}
-.book:hover {
-    background-color:darkcyan;
-    color:darkslategrey;
-}
-.join:hover {
-    background-color:darkblue;
-    color:darkslategray;
-}
-#background {
-    background-color:darkkhaki;
+.mountains {
+    /* controls bottom image */
+    text-align: center;
+    border: 6px solid black;
+    margin: 20px;
+    border-radius: 3%;
 }
 .msg {
-    background-color:bisque;
+    background-color:#acc6d8;
 }
 .msg h2 {
     color:black;
@@ -82,37 +117,25 @@ nav a:hover {
 .msg p {
     color:black;
 }
-footer {
-    background-color:rgb(106, 99, 83);
+.join {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:aliceblue;
     color:black;
+    text-decoration: none;
+    border-radius: 20%;
+    padding: 5px;
+    border: 4px ridge black;
 }
-footer a {
-    color:black;
+.join:hover {
+    background-color:darkblue;
+    color:darkslategray;
+}
+footer, footer a, footer p {
+    background-color:#d3301a;
+    color:rgb(190, 170, 170);
+    font-size: small;
     text-decoration: none;
 }
 footer a:hover {
-    color:brown;
-}
-footer p {
-    font-size: 1.2em;
-}
-footer p a:hover {
-    text-decoration: underline;
-}
-.home-title {
-    color:darkslategrey;
-}
-h4 {
-    color:darkslategrey;
-}
-.icon {
-    width: 80px;
-}
-.logo {
-    width: 20px;
-    border-radius: 50%
-}
-#hero-img {
-    width:100%;
-
+    color: white
 }
