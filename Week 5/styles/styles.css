@@ -1,0 +1,50 @@
+body {text-align: center;
+    background-color: rgb(105, 109, 111);
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#container {
+    width: 20%;
+
+}
+.column1 {
+    float: left;
+    display: block;
+    margin-left: 125px;
+    margin-right: 20;
+    width: 25%;
+    padding: 5px;
+    margin: 35px;
+    clip-path: circle(46.0% at 50% 50%);
+    border: solid rgb(50, 45, 45);
+}
+.column2 {
+    float: left;
+    display: block;
+    margin-left: 125px;
+    margin-right: 20;
+    width: 25%;
+    padding: 5px;
+    margin: 35px;
+    clip-path: circle(46.0% at 50% 50%);
+    border: 4px solid rgb(50, 45, 45);
+}
+.column3 {
+    float: left;
+    display: block;
+    margin-left: 125px;
+    margin-right: 20;
+    width: 25%;
+    padding: 5px;
+    margin: 35px;
+    clip-path: circle(46.0% at 50% 50%);
+    border: 4px solid rgb(50, 45, 45);
+}
+.center {
+    display: block;
+}
