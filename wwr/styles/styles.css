@@ -31,6 +31,7 @@ header {
     align-self: center;
 }
 nav {
+    display: flex;
     justify-content: space-around;
 }
 nav a {
@@ -38,7 +39,7 @@ nav a {
     color:black;
     background-color: white;
     text-decoration: none;
-    padding: 5px;
+    padding: 1px;
     border-radius: 15%;
     border: 3px solid #6e8392
 }
