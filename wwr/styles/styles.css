@@ -161,8 +161,8 @@ main h2 {
     margin: 20px;
     border-radius: 3%;
     width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
+    grid-column: 6/10;
+    grid-row: 6/7;
     box-shadow: 5px 5px 10px gray;
 }
 .msg {
