@@ -42,10 +42,12 @@ nav a {
     color:black;
     text-decoration: none;
     padding: 5px;
+    border-radius: 15%;
+    border: 3px solid #6e8392
 }
 nav a:hover {
-    background-color: white;
-    color:slategray;
+    background-color: #6e8392;
+    color:white;
     padding: 5px;
     border-radius: 10%;
 }
@@ -66,7 +68,7 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 80px
+    margin-top: 100px
 }
 #hero-msg h4 {
     color: white;
@@ -157,15 +159,14 @@ main h2 {
     margin: 20px;
     border-radius: 3%;
     width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
+    grid-column: 6/10;
+    grid-row: 6/7;
     box-shadow: 5px 5px 10px gray;
 }
 .msg {
-    background-color:black;
-    padding: 10px;
-    grid-column: 5/10;
-    grid-row: 6/7;
+    background-color:#acc6d8;
+    grid-column: 6/10;
+    grid-row: 6-7;
     box-shadow: 5px 5px 10px gray;
     color: #fff6cb;
     opacity: .8;
