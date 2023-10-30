@@ -38,12 +38,11 @@ nav a {
     text-align: center;
     color:black;
     text-decoration: none;
+    margin: auto;
 }
 nav a:hover {
     background-color: #6e8392;
     color:white;
-    padding: 5px;
-    border-radius: 10%;
 }
 #hero {
     display: grid;
