@@ -18,6 +18,7 @@ header {
     font-size: 1em;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: .9;
 }
 .logo {
     width: 60px;
@@ -33,19 +34,18 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    margin: 3%;
 }
 nav a {
     text-align: center;
     color:black;
-    background-color: white;
     text-decoration: none;
     padding: 5px;
-    border-radius: 15%;
-    border: 3px solid #6e8392
 }
 nav a:hover {
-    background-color: #6e8392;
-    color:white;
+    background-color: white;
+    color:slategray;
     padding: 5px;
     border-radius: 10%;
 }
@@ -66,21 +66,18 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px
+    margin-top: 80px
 }
 #hero-msg h4 {
     color: white;
+    padding: auto;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-    color:aliceblue
+    color: white;
 }
 #hero-msg h1 {
     font-size: 50px;
-}
-.home-title {
-    color:rgb(46, 69, 69);
-    padding: auto;
 }
 .button-box {
     text-align: center;
@@ -113,23 +110,22 @@ nav a:hover {
     /* controls all image features in the main section */ 
     text-align: center;
     border: 6px solid black;
-    margin: 50px 9px 20px 105px;
     border-radius: 3%;
-    width: 100%;
-    border: 10px solid black;
+    height: auto;
     transition: transform .5s;
+    margin: auto;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
-.rivers-card {
-    grid-column: 2/4;
+.camping-card {
+    grid-column: 2/3;
     grid-row: 2/3;
 }
-.camping-card {
-    grid-column: 5/7;
+.rivers-card {
+    grid-column: 4/5;
     grid-row: 2/3;
 }
 .rapids-card {
@@ -166,25 +162,24 @@ main h2 {
     box-shadow: 5px 5px 10px gray;
 }
 .msg {
-    background-color:#acc6d8;
-    grid-column: 6/10;
-    grid-row: 6-7;
+    background-color:black;
+    padding: 10px;
+    grid-column: 5/10;
+    grid-row: 6/7;
     box-shadow: 5px 5px 10px gray;
-}
-.msg h2 {
-    color:black;
-}
-.msg p {
-    color:black;
+    color: #fff6cb;
+    opacity: .8;
+    border: 6px solid black;
 }
 .join {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:#fff6cb;
+    background-color:white;
     color:black;
     text-decoration: none;
     border-radius: 20%;
     padding: 5px;
-    border: 4px ridge black;
+    border: 4px ridge grey;
+    box-shadow: 6px white;
 }
 .join:hover {
     background-color:aliceblue;
