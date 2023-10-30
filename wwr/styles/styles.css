@@ -37,11 +37,7 @@ nav {
 nav a {
     text-align: center;
     color:black;
-    background-color: white;
     text-decoration: none;
-    padding: 1px;
-    border-radius: 15%;
-    border: 3px solid #6e8392
 }
 nav a:hover {
     background-color: #6e8392;
