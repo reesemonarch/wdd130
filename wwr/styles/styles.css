@@ -20,7 +20,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     height: 75px;
-    max-width: 1600px;
+    max-width: 100%;
 }
 .logo {
     width: 60px;
