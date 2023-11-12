@@ -11,7 +11,7 @@ body {
 }
 #content {
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 100%;
 }
 header {
     background-color:#fff6cb;
@@ -62,7 +62,7 @@ nav a:hover {
     z-index: -1;
 }
 #hero-img {
-    width:1600px;
+    width:100%;
     border-top: 7px #6e8392 solid ;
 }
 #hero-msg {
@@ -106,7 +106,7 @@ nav a:hover {
     text-align: center;
     display: grid;
     grid-template-columns: 10fr;
-    max-width: 1600px;
+    max-width: 100%;
 }
 .card-img {
     /* controls all image features in the main section */ 
@@ -190,7 +190,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 1600px;
+    max-width: 100%;
 }
 footer, footer a, footer p {
     background-color:#d3301a;
