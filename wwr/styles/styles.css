@@ -190,6 +190,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-width: 1600px;
 }
 footer, footer a, footer p {
     background-color:#d3301a;
