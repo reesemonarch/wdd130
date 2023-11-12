@@ -36,43 +36,6 @@ body {
   font-size: 18px;
   text-align: center;
 }
-header {
-  background-color:#fff6cb;
-  font-family: Haettenschweiler,'PT Serif', Impact, 'Arial Narrow Bold', sans-serif;
-  font-size: 1em;
-  display: grid;
-  grid-template-columns: 150px auto;
-  height: 75px;
-  max-width: 100%;
-}
-.logo {
-  width: 60px;
-  border-radius: 50%;
-  border: 2px solid black;
-}
-#logo_link {
-  padding-top: 5px;
-  justify-self: center;
-  align-self: center;
-}
-nav {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin-top: 20px;;
-}
-nav a {
-  text-align: center;
-  color:black;
-  text-decoration: none;
-  padding: 5px;
-}
-nav a:hover {
-  background-color: #6e8392;
-  color:white;
-  padding: 5px;
-  width: 80px;
-  margin-bottom: 20px
 img {
   display: block;
   margin: 0 auto;
@@ -198,19 +161,4 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-}
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 100%;
-}
-footer, footer a, footer p {
-  background-color:#d3301a;
-  color:rgb(190, 170, 170);
-  font-size: small;
-  text-decoration: none;
-}
-footer a:hover {
-  color: #fff6cb
 }
