@@ -106,6 +106,7 @@ nav a:hover {
     text-align: center;
     display: grid;
     grid-template-columns: 10fr;
+    max-width: 1600px;
 }
 .card-img {
     /* controls all image features in the main section */ 
