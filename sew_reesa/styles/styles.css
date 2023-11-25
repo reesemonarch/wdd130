@@ -69,7 +69,7 @@ nav a {
     padding: 5px;
 }
 nav a:hover {
-    background-color: #6e8392;
+    background-color: #fbe4e2;
     color:white;
     padding: 5px;
     width: 80px;
@@ -100,6 +100,9 @@ nav a:hover {
 #hero-msg h1 {
     font-size: 50px;
 }
+.contact {
+
+}
 .button-box {
     text-align: center;
     width: 100%;
@@ -128,6 +131,31 @@ nav a:hover {
     display: grid;
     grid-template-columns: 10fr;
     max-width: 100%;
+}
+.contact {
+    display: grid;
+    grid-template: 2/2;
+}
+.products {
+    display: grid;
+    grid-template: 3/3
+}
+#featured {
+   text-align: center;
+   height: 375px;
+   width: 325px;
+   padding: -20;
+   border: 6px solid #6f7364;
+   border-radius: 3%;
+}
+#face-img {
+    height: 100px;
+    width: 85px;
+    border-radius: 3%;
+    border: 6px solid #6f7364;
+    transition: transform .5s;
+    margin: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 #background {
     height: 900px;
