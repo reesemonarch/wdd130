@@ -15,7 +15,6 @@ body {
 }
 #content div {
     max-width: 1600px;
-
 }
 header {
     background-color:#fff6cb;
@@ -117,9 +116,8 @@ nav a:hover {
     grid-column: 1/2;
     grid-row: 1/4;
 }
-
 .card-img1:hover {
-    opacity: .6;
+    opacity: (.6);
     transform: scale(1.1);
 }
 .card-img2 { 
