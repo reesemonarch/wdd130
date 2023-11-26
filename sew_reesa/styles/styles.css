@@ -106,7 +106,6 @@ nav a:hover {
     grid-row: 1/2;
     padding-top: 25px;
    margin-top: 50px;
-    margin-left: 60px;
     justify-content: center;
     border: 2px solid rgb(246, 217, 145);
     background-color: rgb(252, 244, 233);
@@ -143,9 +142,11 @@ nav a:hover {
     margin-left: 35px;
     margin-top: 60px;
     background-color:rgb(252, 244, 233);
+    font-family: "Bonodi+Moda", Helvetica, Serif;;
 }
 .intro p {
     font-weight: 600;
+    font-family: "Euphoria+Script," Helvetica;
 }
 .product1 {
     margin-left: 25px;
@@ -169,6 +170,7 @@ nav a:hover {
    border-radius: 3%;
    box-shadow: 5px 5px 10px #64857c;
    margin: 40px 40px 10px 40px ;
+   font-family: "Bonodi+Moda", Helvetica, Serif;
 }
 #featured:hover {
     opacity: 1.5;
@@ -228,6 +230,7 @@ nav a:hover {
     margin-bottom: 20px;
     font-size: larger;
     background-color: rgb(252, 244, 233);
+    font-family: "Bonodi+Moda", Helvetica, Serif;
 }
 .contact ul p {
     font-weight: 600;
