@@ -140,16 +140,14 @@ nav a:hover {
     position: relative;
     width: 50%;
 }
-  
 .image {
     opacity: 1;
     display: block;
-    width: 100%;
-    height: auto;
+    width: 550px;
+    height: 350px;
     transition: .5s ease;
     backface-visibility: hidden;
 }
-  
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -160,17 +158,14 @@ nav a:hover {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-  
 .container:hover .image {
     opacity: 0.3;
 }
-  
 .container:hover .middle {
     opacity: 1;
 }
-  
 .text {
-    background-color: #ffb2e7;
+    background-color: #d78391;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
