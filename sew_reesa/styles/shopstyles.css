@@ -105,7 +105,7 @@ nav a:hover {
 #product {
     width: 220px;
     height: 265px;
-    border: 6px solid #64857c;
+    border: 6px double #64857c;
     margin: 10px;
     justify-self: center;
     padding: 10px;

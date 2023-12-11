@@ -162,15 +162,15 @@ nav a:hover {
     grid-row: 6/8;
 }
 #featured {
-   justify-content: center;
+    justify-content: center;
     text-align: center;
-   height: 350px;
-   width: 325px;
-   border: 6px solid #64857c;
-   border-radius: 3%;
-   box-shadow: 5px 5px 10px #64857c;
-   margin: 40px 40px 10px 40px ;
-   font-family: "Bonodi+Moda", Helvetica, Serif;
+    height: 220px;
+    width: 265px;
+    border: 6px double #64857c;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px #64857c;
+    margin: 40px 40px 10px 40px ;
+    font-family: "Bonodi+Moda", Helvetica, Serif;
 }
 #featured:hover {
     opacity: 1.5;
